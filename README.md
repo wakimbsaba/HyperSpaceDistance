@@ -12,6 +12,11 @@ This implementation was created for academic use, but can be [adapted] for comme
 
 The distance of two points can be get from a variety of ways. For example:
 
+When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+
+
+
 Euclidian Distance:
 
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
