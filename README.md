@@ -18,11 +18,11 @@ $$ distance_{xy} = sqrt{\left( \sum_{k=1}^n \left(x_k - y_k \right)^2  \right)}$
 
 Manhattan Distance:
 
-$$ distance_{xy} = \left( \sum_{k=1}^n abs{ \left(x_k - y_k \right)}  \right)$$
+$$ distance_{xy} = \sum_{k=1}^n abs{ \left(x_k - y_k \right)}  $$
 
 Manhattan Distance:
 
-$$ distance_{xy} = \left( \max_{k=1}^n abs{ \left(x_k - y_k \right)}  \right)$$
+$$ distance_{xy} =  \max_{k=1}^n \left(abs{ \left(x_k - y_k \right)}  \right)$$
 
 
 
