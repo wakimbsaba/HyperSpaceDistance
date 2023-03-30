@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1680143359 source:c:\wakim\estudos\github\hyperspacedistances\main.cpp
+	<iostream>
+	<random>
+	<chrono>
+	<string>
+	"HyperSpaceDistance.h"
+
+1680143296 source:c:\wakim\estudos\github\hyperspacedistances\src\hyperspacedistance.cpp
+	"HyperSpaceDistance.h"
+
+1680142743 c:\wakim\estudos\github\hyperspacedistances\include\hyperspacedistance.h
+	<bitset>
+	<vector>
+	<cmath>
+	<iostream>
+
