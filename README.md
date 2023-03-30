@@ -14,7 +14,7 @@ The distance of two points can be get from a variety of ways. For example:
 
 Euclidian Distance:
 
-$$ \sum_{k=1}^n \left(x_k - y_k \right)^2 $$
+$$ sqrt(\left( \sum_{k=1}^n \left(x_k - y_k \right)^2  \right))$$
 
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
