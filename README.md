@@ -18,7 +18,7 @@ $$ distance_{xy} = sqrt{\left( \sum_{k=1}^n \left(x_k - y_k \right)^2  \right)}$
 
 Manhattan Distance:
 
-$$ distance_{xy} = \left( \sum_{k=1}^n abs{x_k - y_k}  \right)$$
+$$ distance_{xy} = \left( \sum_{k=1}^n abs{ \left(x_k - y_k \right)}  \right)$$
 
 
 
