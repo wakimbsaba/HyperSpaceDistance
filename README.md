@@ -16,10 +16,10 @@ Euclidian Distance:
 
 $$ distance_{xy} = sqrt{\left( \sum_{k=1}^n \left(x_k - y_k \right)^2  \right)}$$
 
+Manhattan Distance:
 
-<p align="center">
-  <img src="Algorithm.png">
-</p>
+$$ distance_{xy} = \left( \sum_{k=1}^n abs{x_k - y_k}  \right)$$
+
 
 
 ## Use Cases
