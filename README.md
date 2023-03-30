@@ -20,10 +20,9 @@ Manhattan Distance:
 
 $$ distance_{xy} = \sum_{k=1}^n abs{ \left(x_k - y_k \right)}  $$
 
-Manhattan Distance:
+Chebyshev Distance:
 
 $$ distance_{xy} =  \max_{k=1}^n \left(abs{ \left(x_k - y_k \right)}  \right)$$
-
 
 
 ## Use Cases
@@ -50,6 +49,17 @@ Simple usage:
 ```c++
 int main()
 {
+
+    HyperSpaceDistance *hy = new HyperSpaceDistance();
+
+    double r = hy->getPearson(x,y);
+    double e = hy->getEuclidian(x,y);
+    double mn = hy->getManhattan(x,y);
+    double ms = hy->getMahalanobis(x,y);
+    double js = hy->getJensenShannon(x,y);
+    double c = hy->getCosineSimilarity(x,y);
+
+
     return 0;
 }
 
@@ -61,7 +71,34 @@ int main()
   This is an example by executing this code:
 ``` 
 -------------------------------------------
-EXECUTING ...
+x[0]: 747.956
+x[1]: -381.142
+-------------------------------------------
+y[0]: 249.402
+y[1]: -183.737
+-------------------------------------------
+-------------------------------------------
+ PEARSON distance: 1
+ 0.9 or more means VERY STRONG correlation
+ 0.7 a 0.9 positive or negative, means STRONG correlation
+ 0.5 a 0.7 positive or negative, means MODERATED correlation
+ 0.3 a 0.5 positive or negative, means WEAK correlation
+ 0.0 a 0.3 positive or negative, means VERY WEAK correlation
+-------------------------------------------
+ EUCLIDIAN distance: 536.213
+-------------------------------------------
+ MANHATTAN distance: 695.958
+-------------------------------------------
+ MAHALANOBIS distance: 0.903333
+-------------------------------------------
+ JENSEN SHANNON distance: 47.5831
+-------------------------------------------
+ COSINE SIMILARITIES: 0.986637
+ cosine similarity always belongs to the interval [-1, 1]
+ 1 , means two proportional vectors
+ 0 , means two orthogonal vectors
+-1 , means two opposite vectors
+-------------------------------------------
 ```
 
 
