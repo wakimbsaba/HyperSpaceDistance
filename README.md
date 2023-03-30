@@ -20,6 +20,10 @@ Manhattan Distance:
 
 $$ distance_{xy} = \left( \sum_{k=1}^n abs{ \left(x_k - y_k \right)}  \right)$$
 
+Manhattan Distance:
+
+$$ distance_{xy} = \left( \max_{k=1}^n abs{ \left(x_k - y_k \right)}  \right)$$
+
 
 
 ## Use Cases
