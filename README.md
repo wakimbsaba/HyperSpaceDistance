@@ -1,4 +1,4 @@
-# non-linear Conjugate Gradient
+# Hyper Space distances
 
 
 [![License](http://img.shields.io/:license-Apache%202-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.txt)
@@ -14,15 +14,7 @@ The distance of two points can be get from a variety of ways. For example:
 
 Euclidian Distance:
 
-$$ sqrt(\left( \sum_{k=1}^n \left(x_k - y_k \right)^2  \right))$$
-
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
-
-
-<img src="https://render.githubusercontent.com/render/math?math={\L = -\sum_{j}[T_{j}ln(O_{j})] + \frac{\lambda W_{ij}^{2}}{2} \rightarrow \text{one-hot} \rightarrow -ln(O_{c}) + \frac{\lambda W_{ij}^{2}}{2}}#gh-light-mode-only">
-
-<img src="https://render.githubusercontent.com/render/math?math={\color{white}\L = -\sum_{j}[T_{j}ln(O_{j})] + \frac{\lambda W_{ij}^{2}}{2} \rightarrow \text{one-hot} \rightarrow -ln(O_{c}) + \frac{\lambda W_{ij}^{2}}{2}}#gh-dark-mode-only">
-
+$$ sqrt{\left( \sum_{k=1}^n \left(x_k - y_k \right)^2  \right)}$$
 
 
 <p align="center">
