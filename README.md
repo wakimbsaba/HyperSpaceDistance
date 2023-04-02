@@ -105,7 +105,7 @@ y[1]: -183.737
 
 ## References:
 
-[1.] [similarity calculum Distribuition](<https://www.ufrgs.br/wiki-r/index.php?title=C%C3%A1lculo_de_similaridade#Dist.C3.A2ncia_Euclidiana> "ufrgs:similarity calculum")
+[1.] [Similarity measure](<https://www.ufrgs.br/wiki-r/index.php?title=C%C3%A1lculo_de_similaridade#Dist.C3.A2ncia_Euclidiana> "ufrgs:Similarity measure")
 
 
 
