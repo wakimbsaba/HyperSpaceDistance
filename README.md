@@ -24,6 +24,7 @@ Chebyshev Distance:
 
 $$ distance_{xy} =  \max_{k=1}^n \left(abs{ \left(x_k - y_k \right)}  \right)$$
 
+obs.: a list of many more methods can be found in [1]
 
 ## Use Cases
 
@@ -104,7 +105,8 @@ y[1]: -183.737
 
 ## References:
 
-[1.] [Conjugate gradient method](<https://en.wikipedia.org/wiki/Conjugate_gradient_method> "Wikipedia:Conjugate gradient method")
+[1.] [similarity calculum Distribuition](<https://www.ufrgs.br/wiki-r/index.php?title=C%C3%A1lculo_de_similaridade#Dist.C3.A2ncia_Euclidiana> "ufrgs:similarity calculum")
 
-[2.] [Random Normal Distribuition](<https://cplusplus.com/reference/random/normal_distribution/> "cplusplus:nomal distribution")
+
+
 
